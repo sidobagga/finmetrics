@@ -21,7 +21,7 @@ fin-metrics-pipeline/
 ## Quick start
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/sidobagga/finmetrics.git
 cd fin-metrics-pipeline
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
