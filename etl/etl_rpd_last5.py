@@ -4,9 +4,7 @@ import os, requests, pandas as pd
 from pathlib import Path
 from datetime import datetime
 
-API_KEY = os.getenv("FMP_KEY")
-if not API_KEY:
-    raise SystemExit("Set FMP_KEY env‑var with your Financial Modeling Prep API token")
+API_KEY = 'JHqiU8ZuKCkuC5GxLWGJMJ02SBKhAyIv'
 
 API_BASE = "https://financialmodelingprep.com/api/v3"
 TICKER   = "RPD"
