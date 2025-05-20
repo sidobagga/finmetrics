@@ -1,6 +1,6 @@
 # Fin Metrics Pipeline
 
-One‑shot ETL + loader that pulls the last five fiscal‑year metrics for **Rapid7 (ticker RPD)** from Financial Modeling Prep
+One‑shot ETL + loader that pulls the last five fiscal‑year metrics from Financial Modeling Prep
 and inserts them into the Postgres schema used by our dashboard.
 
 ## Folder structure
